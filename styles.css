@@ -1,1 +1,106 @@
-/* Write your CSS here! */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+    margin: 8px;
+    display: block;
+    background-color: bisque;
+}
+
+footer {
+    padding: 25px;
+}
+#mainHeading {
+    background-color: red;
+}
+
+.funParagraph {
+    color: green;
+}
+
+.userCommands {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    color: darkslategray;
+    font-weight: 700;
+}
+
+#counter-container {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#grammys-feet {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px; 
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+#grammys-feet:hover {
+    border-color: #007BFF; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#grammys-feet:active {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+
+#pellet-container {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#pellets {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 8px; 
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+#pellets:hover {
+    border-color: #007BFF; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#pellets:active {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(2px);
+}
+
+#voice-box {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#crowd-calls {
+    width: 300px; 
+    height: auto;
+    cursor: pointer; 
+    border: 2px solid transparent; 
+    border-radius: 8px; 
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+#crowd-calls:hover {
+    border-color: #007BFF; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+#crowd-calls:active {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+    transform: translateY(2px);
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
